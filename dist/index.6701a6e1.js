@@ -4085,10 +4085,46 @@ const FullScreenMenu = ()=>{
                 className: "FullscreenMenu",
                 __source: {
                     fileName: "src/components/FullScreenMenu/index.js",
-                    lineNumber: 11
+                    lineNumber: 12
                 },
                 __self: undefined,
-                children: "hello"
+                children: /*#__PURE__*/ _jsxRuntime.jsx("ul", {
+                    __source: {
+                        fileName: "src/components/FullScreenMenu/index.js",
+                        lineNumber: 13
+                    },
+                    __self: undefined,
+                    children: [
+                        "Home",
+                        "About us",
+                        "Portfolio",
+                        "Contact"
+                    ].map((text, i)=>{
+                        return(/*#__PURE__*/ _jsxRuntime.jsx("li", {
+                            style: {
+                                animationDelay: `${100 * i}ms`
+                            },
+                            __source: {
+                                fileName: "src/components/FullScreenMenu/index.js",
+                                lineNumber: 16
+                            },
+                            __self: undefined,
+                            children: /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                href: "#",
+                                onClick: (e)=>{
+                                    e.preventDefault();
+                                    setOpen(false);
+                                },
+                                __source: {
+                                    fileName: "src/components/FullScreenMenu/index.js",
+                                    lineNumber: 17
+                                },
+                                __self: undefined,
+                                children: text
+                            })
+                        }, i));
+                    })
+                })
             }),
             /*#__PURE__*/ _jsxRuntime.jsx("button", {
                 className: "FullscreenMenuToggler",
@@ -4099,7 +4135,7 @@ const FullScreenMenu = ()=>{
                 ,
                 __source: {
                     fileName: "src/components/FullScreenMenu/index.js",
-                    lineNumber: 12
+                    lineNumber: 32
                 },
                 __self: undefined,
                 children: /*#__PURE__*/ _jsxRuntime.jsx("svg", {
@@ -4108,7 +4144,7 @@ const FullScreenMenu = ()=>{
                     viewBox: "-3 -2 24 24",
                     __source: {
                         fileName: "src/components/FullScreenMenu/index.js",
-                        lineNumber: 17
+                        lineNumber: 37
                     },
                     __self: undefined,
                     children: /*#__PURE__*/ _jsxRuntime.jsxs("g", {
@@ -4116,7 +4152,7 @@ const FullScreenMenu = ()=>{
                         strokeWidth: 2,
                         __source: {
                             fileName: "src/components/FullScreenMenu/index.js",
-                            lineNumber: 18
+                            lineNumber: 38
                         },
                         __self: undefined,
                         children: [
@@ -4127,7 +4163,7 @@ const FullScreenMenu = ()=>{
                                 y2: "4",
                                 __source: {
                                     fileName: "src/components/FullScreenMenu/index.js",
-                                    lineNumber: 19
+                                    lineNumber: 39
                                 },
                                 __self: undefined
                             }),
@@ -4138,7 +4174,7 @@ const FullScreenMenu = ()=>{
                                 y2: "10",
                                 __source: {
                                     fileName: "src/components/FullScreenMenu/index.js",
-                                    lineNumber: 20
+                                    lineNumber: 40
                                 },
                                 __self: undefined
                             }),
@@ -4149,7 +4185,7 @@ const FullScreenMenu = ()=>{
                                 y2: "16",
                                 __source: {
                                     fileName: "src/components/FullScreenMenu/index.js",
-                                    lineNumber: 21
+                                    lineNumber: 41
                                 },
                                 __self: undefined
                             })
